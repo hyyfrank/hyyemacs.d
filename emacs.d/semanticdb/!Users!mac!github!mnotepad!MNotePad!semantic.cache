@@ -1,0 +1,162 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("QApplication" include (:system-flag t) nil [1 24])
+            ("QtGui" include (:system-flag t) nil [25 41])
+            ("MNotePad.h" include nil nil [42 63])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [74 83])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [84 96]))                  
+                :type "int")
+                nil [65 203]))          
+      :file "main.cpp"
+      :pointmax 204
+      :fsize 212
+      :lastmodtime '(23231 35719 651724 706000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("DEF_MNOTEPAD" variable (:constant-flag t) nil [156 168])
+            ("QtGui" include (:system-flag t) nil [169 185])
+            ("MNotePad" type
+               (:superclasses 
+                  ( ("QMainWindow" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [239 247])
+                    ("MNotePad" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("MNotePad" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [252 263])
+                    ("creerAction" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [268 287])
+                    ("creerMenu" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [292 309])
+                    ("creerToolBar" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [314 334])
+                    ("pageActuelle" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :type ("QTextEdit" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [386 412])
+                    ("public" label nil (reparse-symbol classsubparts) [416 429])
+                    ("nouveauTab" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [434 452])
+                    ("ouvrirTab" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [457 474])
+                    ("saveTab" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [479 494])
+                    ("precedent" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [499 516])
+                    ("suivant" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [521 536])
+                    ("font" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [541 553])
+                    ("apropos" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [558 573])
+                    ("fermerTab" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [578 595])
+                    ("changerTab" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("window" variable
+                               (:pointer 1
+                                :type ("QMdiSubWindow" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [616 638]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [600 639])
+                    ("protected" label nil (reparse-symbol classsubparts) [641 652])
+                    ("private" label nil (reparse-symbol classsubparts) [655 664])
+                    ("zoneCentrale" variable
+                       (:pointer 1
+                        :type ("QMdiArea" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [669 692])
+                    ("a_nouveauTab" variable
+                       (:pointer 1
+                        :type ("QAction" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [727 749])
+                    ("a_ouvrirTab" variable
+                       (:pointer 1
+                        :type ("QAction" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [754 775])
+                    ("a_saveTab" variable
+                       (:pointer 1
+                        :type ("QAction" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [780 799])
+                    ("a_fermerTab" variable
+                       (:pointer 1
+                        :type ("QAction" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [804 825])
+                    ("a_quitter" variable
+                       (:pointer 1
+                        :type ("QAction" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [830 849])
+                    ("a_precedent" variable
+                       (:pointer 1
+                        :type ("QAction" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [854 875])
+                    ("a_suivant" variable
+                       (:pointer 1
+                        :type ("QAction" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [880 899])
+                    ("a_font" variable
+                       (:pointer 1
+                        :type ("QAction" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [904 920])
+                    ("a_apropos" variable
+                       (:pointer 1
+                        :type ("QAction" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [925 944])
+                    ("a_aproposQt" variable
+                       (:pointer 1
+                        :type ("QAction" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [949 970]))                  
+                :type "class")
+                nil [187 973]))          
+      :file "MNotePad.h"
+      :pointmax 981
+      :fsize 1037
+      :lastmodtime '(23231 31403 859450 582000)
+      :unmatched-syntax '((symbol 229 . 237))
+      :lexical-table 
+        '(("DEF_MNOTEPAD")
+          )
+))
+  :file "!Users!mac!github!mnotepad!MNotePad!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

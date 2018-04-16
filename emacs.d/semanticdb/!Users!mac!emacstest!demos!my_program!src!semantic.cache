@@ -1,0 +1,46 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("myadd.h" include (:system-flag t) nil [42 60])
+            ("iostream" include (:system-flag t) nil [61 80])
+            ("helper.h" include nil nil [81 100])
+            ("main" function (:type "int") nil [102 213]))          
+      :file "main.cpp"
+      :pointmax 214
+      :fsize 213
+      :lastmodtime '(23251 58656 551421 485000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_USERS_MAC_EMACSTEST_DEMOS_MY_PROGRAM_SRC_HELPER_H_" variable (:constant-flag t) nil [111 162]))          
+      :file "helper.h"
+      :pointmax 267
+      :fsize 266
+      :lastmodtime '(23251 57116 908421 321000)
+      :unmatched-syntax '((semantic-list 176 . 203) (symbol 169 . 175) (CLASS 163 . 168))
+      :lexical-table 
+        '(("_USERS_MAC_EMACSTEST_DEMOS_MY_PROGRAM_SRC_HELPER_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("./helper.h" include nil nil [43 64])
+            ("help" function
+               (:parent "Helper"
+                :type "void")
+                nil [65 98]))          
+      :file "helper.cpp"
+      :pointmax 99
+      :fsize 98
+      :lastmodtime '(23251 42717 858287 309000)
+      :unmatched-syntax nil))
+  :file "!Users!mac!emacstest!demos!my_program!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,35 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("acm-icpc/fibonacci.h" include nil nil [21 52])
+            ("acm-icpc/stack.h" include nil nil [53 80])
+            ("acm-icpc/queue.h" include nil nil [81 108])
+            ("acm-icpc/dfs.h" include nil nil [109 134])
+            ("acm-icpc/dfs2.h" include nil nil [135 161])
+            ("acm-icpc/quicksort.h" include nil nil [162 193])
+            ("leecode/array/duplicate.h" include nil nil [196 232])
+            ("leecode/array/findMediaSort.h" include nil nil [233 273])
+            ("leecode/array/rotatedArray.h" include nil nil [274 313])
+            ("leecode/array/sumoftwointeger.h" include nil nil [314 356])
+            ("leecode/array/TwoSumNumIndex.h" include nil nil [357 398])
+            ("leecode/array/removeElement.h" include nil nil [399 439])
+            ("leecode/array/ThreeSum.h" include nil nil [440 475])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [477 497])
+            ("main" function (:type "int") nil [499 4253]))          
+      :file "main.cpp"
+      :pointmax 4254
+      :fsize 4261
+      :lastmodtime '(23252 15029 505860 39000)
+      :unmatched-syntax nil))
+  :file "!Users!mac!learning!cplusplus!algorithms!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

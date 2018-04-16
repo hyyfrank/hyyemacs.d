@@ -1,0 +1,30 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("unpipc.h" include nil nil [1 20])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [31 40])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [41 53]))                  
+                :type "int")
+                nil [22 297]))          
+      :file "ftok.c"
+      :pointmax 298
+      :fsize 297
+      :lastmodtime '(23252 15118 796387 691000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :file "unpipc.h"
+      :fsize 15165
+      :lastmodtime '(13768 41584 0 0)))
+  :file "!Users!mac!learning!unix!unpv22e!svipc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

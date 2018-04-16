@@ -1,0 +1,110 @@
+(((":file" .
+   [1 0 0 0 0])
+  ("global-ede-mode" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("endif" .
+   [0 0 0 1 0])
+  ("define" .
+   [0 0 1 0 0 0])
+  ("add_obj" .
+   [1 0 0 0 0 0 0])
+  ("cout" .
+   [1 0 0 0])
+  ("namespace" .
+   [0 0 0 0 0 1 0 0 0])
+  ("t" .
+   [1])
+  ("Copyright" .
+   [1 0 0 0 0 0 0 0 0])
+  ("while" .
+   [0 0 0 1 0])
+  ("my:flymake-google-init" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0])
+  ("flymake-google-cpplint-load" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("flymake-google-cpplint" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
+  ("iedit-mode" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("iedit" .
+   [1 0 0 0 0])
+  ("kbd" .
+   [1 0 0])
+  ("global-map" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("define-key" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("fln" .
+   [0 0 1])
+  ("std" .
+   [4 0 1])
+  ("float" .
+   [0 0 1 2 3])
+  ("f" .
+   [3])
+  ("c-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 1])
+  ("my:ac-c-header-init" .
+   [0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0])
+  ("c++-mode-hook" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [6 0 0 0 0 0 0 2])
+  ("hook" .
+   [1 0 0 0])
+  ("this" .
+   [1 0 0 0])
+  ("ca" .
+   [1 0])
+  ("ac-source" .
+   [0 0 0 0 0 0 0 0 1])
+  ("add-to-list" .
+   [0 0 0 0 0 0 1 1 0 0 1])
+  ("auto-complete-c-headers" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("require" .
+   [1 0 0 0 0 0 2])
+  ("defun" .
+   [2 0 0 0 1])
+  ("int" .
+   [0 0 1])
+  ("include" .
+   [0 0 1 0 3 0 5])
+  ("yas-global-mode" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("printf" .
+   [3 0 0 0 0 2])
+  ("custom-set-variables" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("main" .
+   [2 0 0 0])
+  ("variable_index" .
+   [1 0 0 1 1 0 0 0 0 0 0 0 0 1])
+  ("google-c-style" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("c-mode-common-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1])
+  ("google-set-c-style" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("google-make-newline-indent" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("vartest" .
+   [0 0 0 0 0 0 1])
+  ("class" .
+   [1 0 0 0 0])
+  ("public" .
+   [1 0 0 0 0 0])
+  ("semantic-mode" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("defun-prompt-regexp" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ac-sources" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("ac-source-semantic" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("my:add-semantic-to-autocomplete" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("my:add-sematic-to-autocomplete" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Helper" .
+   [2 0 0 1 0 0])))
